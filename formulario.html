@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/formulario.css">
+    <script src="https://kit.fontawesome.com/b81d3426d0.js" crossorigin="anonymous"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="/index.html">SISTEMA SOLAR</a></li>
+                <li><a href="/constelaciones.html">CONSTELACIONES</a></li>
+                <li><a href="/galaxias.html">GALAXIA</a></li>
+                <li><a href="/formulario.html">FORMULARIO</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <aside>
+        <h2>Mis Trabajos</h2>
+        <div class="aside1">
+            <img id="constelacion" src="/img/pagC.png" alt="">
+            <img id="solar" src="/img/pagS.jpg" alt="">
+            <img id="galaxia" src="/img/pagG.jpg" alt="">
+        </div>
+    </aside>
+
+    <main>
+        <section class="form-register">
+            <h4>Formulario de Registro</h4>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+            <br>
+                <input type="radio" name="sexo" value="1" required> Hombre
+                <input type="radio" name="sexo" value="2" > Mujer
+                <input type="radio" name="sexo" value="3"> Prefiero no decirlo
+            <br>
+            <br>
+                <input class="controls" type="text" name="DNI" id="dni" maxlength="8" minlength="5" placeholder="Ingrese su DNI">
+            <br>
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+            <br>
+                <input class="controls" type="password" minlength="5" placeholder="Ingrese contraseña">
+            <br>
+                <input type="range" name="" id="" min="1" max="11" step="2" list="lista-rango">
+                <!-- <datalist id="lista-rango">
+                    <option value="1" label="Malo">
+                    <option value="2" label="Regular">
+                    <option value="3" label="Bueno">
+                </datalist> -->
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <br>
+                <button type="submit">
+                    <img src="https://cdn-icons-png.flaticon.com/128/6992/6992732.png" alt="" width="20" height="20"> Enviar
+                </button>
+
+                    <input class="button" type="reset" value="Borrar">
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="contenido-footer">
+                <h2>Creado por</h2>
+                <h3>Yamile Vera</h3>
+            </div>
+            <div class="contenido-footer">
+                <a href=""><i class="fa-thin fa-envelope"></i></a>
+                <h3>yamiverama@gmail.com</h3>
+            </div>
+            <div class="contenido-footer">
+                <a href="https://www.instagram.com/yamile.vera/"><i class="fa-brands fa-instagram"></i>
+                </a>
+                <h3>INSTAGRAM</h3>
+            </div>
+
+            <div class="contenido-footer">
+                <a href="https://www.facebook.com/Yamile.Vera.Mancilla/"><i class="fa-brands fa-facebook"></i></a>
+                <h3>FACEBOOK</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

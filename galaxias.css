@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(68, 4, 158, 0.658);
+}
+
+main{
+    width: 90%;
+    height: 90%;
+}
+
+header{
+    background-color: rgb(57, 57, 74);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.container{
+    width: 90%;
+    max-width: 50%;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15%;
+} 
+
+.container ul{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size:small;
+    font-family:cursive;
+    gap: 16px;
+    border-left: 5px solid transparent;
+}
+
+.container a{
+    display: block;
+    color: #c7c7c7;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.container a:hover{
+    border-right: 5px solid #c7c7c7;
+    border-left: 5px solid #c7c7c7;
+    font-size: small;
+    border-radius: 10%;
+}
+
+.emcabezado{
+    background-image: url("/img/fondo.galaxia.jpg");
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.emcabezado h1{
+    color:antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+table, th, td{
+    /* border-style:dashed;
+    border-width:2px;
+    border-color:brown ; */
+    border: 2px dashed rgb(238, 232, 232);
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    border-collapse:collapse; /*borde simple*/
+    margin: 30px ; 
+}
+
+td img{
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+th{
+    height: 80px;
+    background-color: rgb(149, 125, 161);
+}
+
+td{
+    height: 70px;
+    vertical-align:top; /*bottom (inf), top (sup)*/
+    padding: 45px;
+    text-align: justify;
+}
+
+aside{
+    background-color: rgb(150, 130, 170);
+    margin: 50px  20px ;
+    width: 20%;
+    height: 20%;
+    float: right;
+    border-radius: 20px;
+}
+
+aside iframe{
+    padding: 18px 18px;
+}
+
+footer{
+    background-color: rgb(1, 0, 0);
+    margin: auto;
+    padding: 40px 0 40px 0;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contenido-footer{
+    text-align: center;
+}
+
+.contenido-footer h3{
+    color: white;
+}
+
+.contenido-footer h2{
+    color: white;
+}

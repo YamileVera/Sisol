@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(92, 84, 117);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+
+.container{
+    width: 90%;
+    max-width: 50%;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15%;
+} 
+
+.container ul{
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size:smaller;
+    font-family:cursive;
+    gap: 16px;
+    border-left: 5px solid transparent;
+}
+
+.container a{
+    display: block;
+    color: #c7c7c7;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container a:hover{
+    border-right: 5px solid #c7c7c7;
+    border-left: 5px solid #c7c7c7;
+    font-size:smaller;
+    border-radius: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(10, 9, 20);
+    font-family: monospace;
+    font-size:medium;
+    text-shadow: 1px -1px px rgb(159, 152, 152);
+}
+
+#contenedor a {
+    display: block;
+    color: rgb(115, 120, 120);
+    text-decoration: none;
+    padding: 20px;
+}
+
+#contenedor li {
+    /* display: inline-block; */
+    text-align: center;
+}
+
+
+#contenedor a:hover {
+    border-right: 2px dotted #c7c7c7;
+    border-left: 2px dotted #c7c7c7;
+    font-size:x-small;
+    border-radius: 19px;
+}
+
+.encabezado-img {
+    background-image: url("/img/galaxia.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.encabezado-img h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+}
+
+header {
+    background-color: rgb(57, 57, 74);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.main-principal1 {
+    margin: 20px 20px 20px 20px;
+    justify-content:center;
+}
+
+.main-principal1 .main-principal{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    align-items: center;
+}
+
+.main-principal{
+    margin: 10px 10px 10px 10px;
+    justify-content:center;
+}
+
+.main-principal1 h2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    /* underline es linea abajo, onderline es linea arriba*/
+    letter-spacing: 3px;
+    /*sirve para separar la letra*/
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: initial;
+    text-shadow: 3px -2px 3px rgb(235, 226, 226);
+    margin: 40px 20px 20px 20px;
+}
+
+.main-principal p{
+    color: white;
+    font-family:inherit;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+}
+
+.main-principal img {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+img{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+img:hover{
+    transform:matrix3d(1);
+    -webkit-box-reflect:below;
+}
+
+.contenedor{
+    margin: 10px 10px 10px 10px;
+}
+
+.listas{
+    list-style: circle;
+    color: aliceblue;
+    font-family: cursive;
+    margin: 20px 20px 20px 20px;
+}
+
+.listas h4{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin:20px;
+    padding: 1em 0;
+}
+
+.links{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 10px;
+}
+
+.links h3{
+    justify-content: space-evenly;
+    font-family: monospace;
+    color: rgb(255, 252, 248);
+}
+
+.links a{
+    background-color: dimgray;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: rgb(1, 0, 0);
+    margin: auto;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contenido-footer {
+    text-align: center;
+}
+
+.contenido-footer h3 {
+    color: white;
+}
+
+.contenido-footer h2 {
+    color: white;
+}
