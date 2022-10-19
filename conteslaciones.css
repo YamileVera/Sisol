@@ -87,7 +87,7 @@ nav{
 }
 
 .encabezado-img {
-    background-image: url("/img/galaxia.jpg");
+    background-image: url("./img/galaxia.jpg");
     height: 300px;
     background-size: cover;
     display: flex;
