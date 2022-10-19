@@ -56,7 +56,7 @@ header{
 }
 
 .emcabezado{
-    background-image: url("/img/fondo.galaxia.jpg");
+    background-image: url("./img/fondo.galaxia.jpg");
     height: 200px;
     background-size: cover;
     display: flex;
