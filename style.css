@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("https:.//images.alphacoders.com/534/534555.jpg");
+    background-image: url("https:..//images.alphacoders.com/534/534555.jpg");
     background-color: rgb(108, 74, 74);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ header {
 header figure {
     width: 60px;
     height: 60px;
-    background-image: url("/img/nave.jpg");
+    background-image: url("./img/nave.jpg");
     /* float: left; 
     /* margin: 10px 10px 10px 20px; */
     border-radius: 50%;
@@ -109,7 +109,7 @@ header figure {
 }
 
 .encabezado-img {
-    background-image: url("/img/sistema_solar.jpg");
+    background-image: url("./img/sistema_solar.jpg");
     height: 300px;
     background-size: cover;
     display: flex;
